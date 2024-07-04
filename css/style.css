@@ -36,24 +36,3 @@ body {
 .login-button:hover, .btn:hover {
     background-color: #0056b3;
 }
-
-.form-control {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-.form-text {
-    text-align: left;
-    margin-bottom: 10px;
-    font-size: 0.875rem;
-    color: #6c757d;
-}
-
-.form-check-label {
-    text-align: left;
-    display: block;
-    margin-bottom: 10px;
-}
