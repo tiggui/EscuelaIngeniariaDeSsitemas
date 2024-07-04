@@ -1,5 +1,4 @@
 document.getElementById('institutional-email').addEventListener('click', function() {
-    alert('Redirigiendo a la página de login con correo institucional...');
     window.location.href = 'login2.html';
 });
 
