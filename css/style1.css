@@ -1,0 +1,309 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 50px;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.welcome-section, .new-portal-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.welcome-content, .new-portal-content {
+    max-width: 50%;
+}
+
+.welcome-content h1 {
+    font-size: 2em;
+    color: #3c2973;
+    margin: 0;
+}
+
+.welcome-content p {
+    font-size: 1em;
+    color: #333;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 2px solid #ff0000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cta-button:hover {
+    background-color: #fff;
+    color: #ff0000;
+}
+
+.welcome-image img, .new-portal-image img {
+    max-width: 60%;
+    height: auto;
+    margin-left: 250px;
+
+}
+
+.new-portal-section {
+    background-color: #e0f7fa;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.new-portal-content h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.new-portal-content .cta-button {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.new-portal-content .cta-button:hover {
+    background-color: #fff;
+    color: #ff0000;
+}
+
+.new-portal-image img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 1px;
+
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .welcome-section, .new-portal-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .welcome-content, .new-portal-content {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .welcome-image img, .new-portal-image img {
+        margin-top: 20px;
+    }
+}
+
+/* Section MI UPC PADRES */
+.padres-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #f7f8fc;
+    border-radius: 10px;
+}
+
+.padres-content {
+    max-width: 50%;
+    text-align: right;
+}
+
+.padres-content h2 {
+    font-size: 2em;
+    color: #3c2973;
+    margin: 0;
+}
+
+.padres-content p {
+    font-size: 1em;
+    color: #333;
+    margin: 10px 0;
+}
+
+.padres-image {
+    max-width: 50%;
+}
+
+.padres-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.padres-content .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.padres-content .cta-button:hover {
+    background-color: #fff;
+    color: #ff0000;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .padres-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .padres-content {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .padres-image {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+}
+
+/*----------------------------------------------*/
+
+/* Footer Styles */
+.footer {
+    background-color: #b5dde7;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-item {
+    text-align: center;
+    flex: 1;
+    padding: 10px;
+}
+
+.footer-item img {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.footer-item p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.footer-item a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-item a:hover {
+    text-decoration: underline;
+}
+
+.footer-button {
+    background-color: #fff;
+    border: 2px solid #25D366;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.footer-button .fab.fa-whatsapp {
+    color: #25D366;
+    font-size: 24px;
+}
+
+.footer-button:hover {
+    background-color: #25D366;
+}
+
+.footer-button:hover .fab.fa-whatsapp {
+    color: #fff;
+}
+
+/* Icon Styles (using FontAwesome) */
+.fas.fa-book:before {
+    content: "\f02d"; /* FontAwesome book icon */
+}
+
+.fab.fa-whatsapp:before {
+    content: "\f232"; /* FontAwesome WhatsApp icon */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-item {
+        margin-bottom: 10px;
+    }
+
+    .footer-button {
+        margin: 0 auto;
+    }
+}
