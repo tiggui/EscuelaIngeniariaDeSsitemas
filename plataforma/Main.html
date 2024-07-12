@@ -1,55 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil Estudiante</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
+
 <body>
-    <div class="container">
+    <div>
         <header class="header">
-            <h1>AcademicoPlusUNC</h1>
-            <div class="user-info">
-                <span class="user-email">acaraujulcat22_2@unc.edu.pe</span>
-                <button class="logout">Cerrar Sesión</button>
+            <h1>Ingeniería de Sistemas</h1>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="Main.html">Panel</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active" href="Main.html">Perfil</a>
+                            <a class="nav-link active" href="matricula.html">Matrícula</a>
+                            <a class="nav-link active" href="horario.html">Horario</a>
+                            <a class="nav-link active" href="clases.html">clases</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <br>
+            <div class="user-info d-flex justify-content-between">
+                <span class="user">ALEX ELI CARUAJULCA TIGLLA</span>
+                <button class="btn btn-danger">Cerrar Sesión</button>
             </div>
         </header>
-        <nav class="sidebar">
-            <ul>
-                <li><a href="#">CICLO 2024 I</a></li>
-                <li><a href="#">Matrícula: CICLO 2024 - I</a></li>
-                <li><a href="#">Panel de Estudiante</a></li>
-                <li><a href="#">22110644</a></li>
-            </ul>
-        </nav>
-        <main class="profile">
-            <section class="profile-header">
-                <img src="profile-picture.jpg" alt="Alex Eli Caruajulca Tiglla">
-                <h2>CARUAJULCA TIGLLA ALEX ELI</h2>
-                <p>Ingeniería de Sistemas</p>
-                <p>Código: 2022110044</p>
-                <p>Email: <a href="mailto:acaraujulcat22_2@unc.edu.pe">acaraujulcat22_2@unc.edu.pe</a></p>
-                <p>Modalidad Estudios: PRESENCIAL</p>
-            </section>
-            <section class="profile-info">
-                <h3>Mi Información</h3>
-                <p>Documento de Identidad: 73646957</p>
-                <p>Programa de Estudio (Especialidad): Ingeniería de Sistemas</p>
-                <p>Merito: Puesto 41° (76 Estudiantes de la Promoción)</p>
-                <p>Promedio Ponderado: 12.0385</p>
-                <p>Fecha Reporte: 7/07/2024 17:19:30</p>
-            </section>
-            <section class="student-data">
-                <h3>Datos Estudiante</h3>
-                <p>Lugar de Nacimiento: Departamento: Cajamarca, Provincia: Hualgayoc, Distrito: Bambamarca</p>
-                <p>Dirección Actual: Dirección: Ricardo Palma 538, Departamento: Cajamarca, Provincia: Hualgayoc, Distrito: Bambamarca, Localidad: Bambamarca</p>
-                <p>Correo Personal: <a href="mailto:atiglla97@gmail.com">atiglla97@gmail.com</a></p>
-                <p>Teléfono: Móvil: 940515137</p>
-                <p>Datos discapacidad: No</p>
-            </section>
+        <main class="container-fluid">
+            <br>
+            <h2>Perfil Estudiante</h2>
+
+            <div class="profile ">
+
+                <div class="profile-header">
+                    <div class="perfil">
+                        <img src="img/profile-picture.jpg" alt="Alex Eli Caruajulca Tiglla" style="width: 60px;">
+                        <h2>CARUAJULCA TIGLLA ALEX ELI</h2>
+                        <p>Ingeniería de Sistemas</p>
+                    </div>
+                    <div class="resumen">
+                        <div><span>Código:</span><span> 2022110044</span></div>
+                        <hr>
+                        <div><span>Email:</span><span> <a
+                                    href="mailto:acaraujulcat22_2@unc.edu.pe">acaraujulcat22_2@unc.edu.pe</a></span>
+                        </div>
+                        <hr>
+                        <div><span>Modalidad Estudios: </span><span>PRESENCIAL</span></div>
+                    </div>
+                </div>
+                <div class="profile-mas">
+                    <section class="profile-info">
+                        <h3>Mi Información</h3>
+                        <div><span>Documento de Identidad: </span>
+                            <p>73646957</p>
+                        </div>
+                        <hr>
+                        <div><span>Programa de Estudio (Especialidad):</span>
+                            <p>Ingeniería de Sistemas</p>
+                        </div>
+                        <hr>
+                        <div><span>Merito:</span>
+                            <p> Puesto 41° (76 Estudiantes de la Promoción)</p>
+                        </div>
+                        <hr>
+                        <div><span>Promedio Ponderado:</span>
+                            <p> 12.0385</p>
+                        </div>
+                        <hr>
+                        <div><span>Fecha Reporte:</span>
+                            <p> 7/07/2024 17:19:30</p>
+                        </div>
+                    </section>
+                    <section class="student-data">
+                        <h3>Datos Estudiante</h3>
+                        <span>Lugar de Nacimiento:</span>
+                        <p> Departamento: Cajamarca, Provincia: Hualgayoc, Distrito: Bambamarca</p>
+                        <span>Dirección Actual:</span>
+                        <p> Dirección: Ricardo Palma 538, Departamento: Cajamarca, Provincia: Hualgayoc,
+                            Distrito: Bambamarca, Localidad: Bambamarca</p>
+                        <span>Correo Personal:</span>
+                        <p> <a href="mailto:atiglla97@gmail.com">atiglla97@gmail.com</a></p>
+                        <span>Teléfono: Móvil: </span>
+                        <p>940515137</p>
+                        <span>Datos discapacidad:</span>
+                        <p> No</p>
+
+
+
+
+                    </section>
+                </div>
+            </div>
         </main>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
