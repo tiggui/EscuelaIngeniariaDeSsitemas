@@ -129,50 +129,7 @@ body, html {
     font-size: 16px;
     cursor: pointer;
 }
-.curriculum {
-    padding: 20px;
-    background: white;
-    color: black;
-}
-.curriculum table {
-    width: 100%;
-    border-collapse: collapse;
-}
-.curriculum th, .curriculum td {
-    border: 1px solid #ccc;
-    padding: 10px;
-    text-align: center;
-}
-.curriculum th {
-    background: #f0f0f0;
-}
-.curriculum td {
-    background: #fff;
-}
-.legend {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
-}
-.legend div {
-    display: flex;
-    align-items: center;
-}
-.legend div span {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-}
-.humanidades { background: #f0d0d0; }
-.ciencias-basicas { background: #f0f0d0; }
-.administracion { background: #d0d0f0; }
-.sistemas-info { background: #d0f0f0; }
-.tec-info { background: #d0f0d0; }
-.ciencias-comp { background: #d0d0d0; }
-.ing-software { background: #f0d0f0; }
-.practica-prof { background: #d0d0d0; }
-.electivos { background: #f0f0f0; }
+
 
 /*------------------------------------------------------------*/
 
@@ -264,4 +221,184 @@ body, html {
 
 
 /*---------------------------------------------------------*/
+#curriculum {
+    border-left: 30px solid #ffffff; /* Borde sólido negro a la izquierda */
+    border-right: 30px solid #ffffff; /* Borde sólido negro a la derecha */
+}
+/* styles.css */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px; 
+}
 
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+td:hover {
+    background-color: #f5f5f5;
+}
+
+tr:nth-child(2) td:nth-child(1) { background-color: #ffdead; } /* Navajo White */
+tr:nth-child(2) td:nth-child(2) { background-color: #ffdead; }
+tr:nth-child(2) td:nth-child(3) { background-color: #ffdead; }
+tr:nth-child(2) td:nth-child(4) { background-color: #ffdead; }
+tr:nth-child(2) td:nth-child(5) { background-color: #98fb98; } /* Pale Green */
+tr:nth-child(2) td:nth-child(6) { background-color: #98fb98; }
+tr:nth-child(2) td:nth-child(7) { background-color: #add8e6; } /* Light Blue */
+tr:nth-child(2) td:nth-child(8) { background-color: #add8e6; }
+tr:nth-child(2) td:nth-child(9) { background-color: #f08080; } /* Light Coral */
+tr:nth-child(2) td:nth-child(10) { background-color: #ffdead; }
+
+/* Fila 3 - Ciclos I a X */
+tr:nth-child(3) td:nth-child(1) { background-color: #ffa07a; } /* Light Salmon */
+tr:nth-child(3) td:nth-child(2) { background-color: #ffa07a; }
+tr:nth-child(3) td:nth-child(3) { background-color: #ffa07a; }
+tr:nth-child(3) td:nth-child(4) { background-color: #4682b4; } /* Steel Blue */
+tr:nth-child(3) td:nth-child(5) { background-color: #98fb98; }
+tr:nth-child(3) td:nth-child(6) { background-color: #f08080; }
+tr:nth-child(3) td:nth-child(7) { background-color: #f08080; }
+tr:nth-child(3) td:nth-child(8) { background-color: #98fb98; }
+tr:nth-child(3) td:nth-child(9) { background-color: #98fb98; }
+tr:nth-child(3) td:nth-child(10) { background-color: #ffdead; }
+
+/* Fila 4 - Ciclos I a X */
+tr:nth-child(4) td:nth-child(1) { background-color: #4682b4; }
+tr:nth-child(4) td:nth-child(2) { background-color: #90ee90; } /* Light Green */
+tr:nth-child(4) td:nth-child(3) { background-color: #90ee90; }
+tr:nth-child(4) td:nth-child(4) { background-color: #90ee90; }
+tr:nth-child(4) td:nth-child(5) { background-color: #f08080; }
+tr:nth-child(4) td:nth-child(6) { background-color: #f08080; }
+tr:nth-child(4) td:nth-child(7) { background-color: #add8e6; }
+tr:nth-child(4) td:nth-child(8) { background-color: #add8e6; }
+tr:nth-child(4) td:nth-child(9) { background-color: #ffa07a; }
+tr:nth-child(4) td:nth-child(10) { background-color: #ffa07a; }
+
+/* Fila 5 - Ciclos I a X */
+tr:nth-child(5) td:nth-child(1) { background-color: #ffdead; }
+tr:nth-child(5) td:nth-child(2) { background-color: #ffdead; }
+tr:nth-child(5) td:nth-child(3) { background-color: #ffdead; }
+tr:nth-child(5) td:nth-child(4) { background-color: #ffdead; }
+tr:nth-child(5) td:nth-child(5) { background-color: #ffdead; }
+tr:nth-child(5) td:nth-child(6) { background-color: #ffdead; }
+tr:nth-child(5) td:nth-child(7) { background-color: #ffdead; }
+tr:nth-child(5) td:nth-child(8) { background-color: #ffdead; }
+tr:nth-child(5) td:nth-child(9) { background-color: #ffdead; }
+tr:nth-child(5) td:nth-child(10) { background-color: #ffdead; }
+
+/* Fila 6 - Ciclos I a X */
+tr:nth-child(6) td:nth-child(1) { background-color: #ffdead; }
+tr:nth-child(6) td:nth-child(2) { background-color: #ffdead; }
+tr:nth-child(6) td:nth-child(3) { background-color: #ffdead; }
+tr:nth-child(6) td:nth-child(4) { background-color: #ffdead; }
+tr:nth-child(6) td:nth-child(5) { background-color: #ffdead; }
+tr:nth-child(6) td:nth-child(6) { background-color: #ffdead; }
+tr:nth-child(6) td:nth-child(7) { background-color: #add8e6; }
+tr:nth-child(6) td:nth-child(8) { background-color: #add8e6; }
+tr:nth-child(6) td:nth-child(9) { background-color: #f08080; }
+tr:nth-child(6) td:nth-child(10) { background-color: #ffa07a; }
+
+/* Fila 7 - Ciclos I a X */
+tr:nth-child(7) td:nth-child(1) { background-color: #4682b4; }
+tr:nth-child(7) td:nth-child(2) { background-color: #90ee90; }
+tr:nth-child(7) td:nth-child(3) { background-color: #90ee90; }
+tr:nth-child(7) td:nth-child(4) { background-color: #90ee90; }
+tr:nth-child(7) td:nth-child(5) { background-color: #f08080; }
+tr:nth-child(7) td:nth-child(6) { background-color: #f08080; }
+tr:nth-child(7) td:nth-child(7) { background-color: #add8e6; }
+tr:nth-child(7) td:nth-child(8) { background-color: #add8e6; }
+tr:nth-child(7) td:nth-child(9) { background-color: #ffa07a; }
+tr:nth-child(7) td:nth-child(10) { background-color: #ffa07a; }
+
+/* Fila 8 - Ciclos I a X */
+tr:nth-child(8) td:nth-child(1) { background-color: #ffdead; }
+tr:nth-child(8) td:nth-child(2) { background-color: #ffdead; }
+tr:nth-child(8) td:nth-child(3) { background-color: #ffdead; }
+tr:nth-child(8) td:nth-child(4) { background-color: #ffdead; }
+tr:nth-child(8) td:nth-child(5) { background-color: #ffdead; }
+tr:nth-child(8) td:nth-child(6) { background-color: #ffdead; }
+tr:nth-child(8) td:nth-child(7) { background-color: #ffdead; }
+tr:nth-child(8) td:nth-child(8) { background-color: #ffdead; }
+tr:nth-child(8) td:nth-child(9) { background-color: #ffdead; }
+tr:nth-child(8) td:nth-child(10) { background-color: #ffdead; }
+
+/* Fila 9 - Ciclos I a X */
+tr:nth-child(9) td:nth-child(1) { background-color: #ffa07a; }
+tr:nth-child(9) td:nth-child(2) { background-color: #ffa07a; }
+tr:nth-child(9) td:nth-child(3) { background-color: #ffa07a; }
+tr:nth-child(9) td:nth-child(4) { background-color: #4682b4; }
+tr:nth-child(9) td:nth-child(5) { background-color: #98fb98; }
+tr:nth-child(9) td:nth-child(6) { background-color: #f08080; }
+tr:nth-child(9) td:nth-child(7) { background-color: #f08080; }
+tr:nth-child(9) td:nth-child(8) { background-color: #98fb98; }
+tr:nth-child(9) td:nth-child(9) { background-color: #98fb98; }
+tr:nth-child(9) td:nth-child(10) { background-color: #ffdead; }
+
+/* Fila 10 - Ciclos I a X */
+tr:nth-child(10) td:nth-child(1) { background-color: #4682b4; }
+tr:nth-child(10) td:nth-child(2) { background-color: #90ee90; }
+tr:nth-child(10) td:nth-child(3) { background-color: #90ee90; }
+tr:nth-child(10) td:nth-child(4) { background-color: #90ee90; }
+tr:nth-child(10) td:nth-child(5) { background-color: #f08080; }
+tr:nth-child(10) td:nth-child(6) { background-color: #f08080; }
+tr:nth-child(10) td:nth-child(7) { background-color: #add8e6; }
+tr:nth-child(10) td:nth-child(8) { background-color: #add8e6; }
+tr:nth-child(10) td:nth-child(9) { background-color: #ffa07a; }
+tr:nth-child(10) td:nth-child(10) { background-color: #ffa07a; }
+
+/* styles.css */
+body {
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px; /* Agrega margen en la parte inferior del cuerpo */
+    
+}
+
+.container {
+    display: flex;
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px; /* Ajusta esto según el ancho deseado */
+    margin-bottom: 90px; /* Espacio extra debajo del contenedor para separación visual */
+}
+
+.eje {
+    padding: 10px 20px;
+    flex-grow: 1;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border-right: 2px solid #ccc;
+    margin-bottom: 10px; /* Espacio debajo de cada eje */
+}
+
+.eje:last-child {
+    border-right: none;
+}
+
+.eje.especial {
+    border: 2px dashed black;
+    border-radius: 8px;
+}
+
+.color1 { background-color: #ffdead; }
+.color2 { background-color: #ffdead; }
+.color3 { background-color: #ffdead; }
+.color4 { background-color: #ffdead; }
+.color5 { background-color: #98fb98; }
+.color6 { background-color: #add8e6; }
+.color7 { background-color: #f08080; }
+.color8 { background-color: #ffa07a; }
+.color9 { background-color: #CCCCCC; } /* Gris claro para 'Electivos' */
