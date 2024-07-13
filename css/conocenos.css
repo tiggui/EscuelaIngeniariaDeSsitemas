@@ -36,7 +36,6 @@ body {
     text-transform: uppercase;
     font-weight: bold;
 }
-/*______________________________________________________*/
 
 .banner {
     background: url('../img/banner.webp') no-repeat center center;
@@ -117,4 +116,9 @@ h1 {
 
 .accordion-content p {
     margin: 0;
+}
+
+.contenedorimg {
+    display: flex;
+    justify-content: center;
 }
