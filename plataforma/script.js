@@ -18,7 +18,7 @@ async function perrito(){
 
     var imagen =  respuestajson.message;
     var imagenincrustada = document.querySelector('.contenedorimg');
-    imagenincrustada.innerHTML="<img src='"+imagen+"'>"; 
+    imagenincrustada.innerHTML="<img style='width: 600px' src='"+imagen+"'>"; 
 
 }
 
