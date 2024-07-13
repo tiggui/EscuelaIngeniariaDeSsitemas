@@ -397,3 +397,12 @@ tr:nth-child(10) td:nth-child(10) { background-color: #ffa07a; }
 .color7 { background-color: #f08080; }
 .color8 { background-color: #ffa07a; }
 .color9 { background-color: #CCCCCC; } /* Gris claro para 'Electivos' */
+
+
+#mapa {
+    height: 500px;
+    width: 100%;
+    padding: 20px;
+   
+   
+}

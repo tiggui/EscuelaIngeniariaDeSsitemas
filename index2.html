@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
     <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
 </head>
+
 <body>
     <header class="header">
         <a href="index2.html"><img src="img/logo.jpg" alt="Logo"></a>
@@ -20,223 +25,243 @@
         </nav>
         <a href="plataforma/Main.html" class="inscribete">Plataforma</a>
     </header>
-        <div class="content">
-            <div class="video-background">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/B_BNY67EaEk?si=t62PIrNeVUEIXNsy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-              </div>
-            <div class="text">
-                <h1>Bienvenidos a la Escuela Académico Profesional de Ingeniería de Sistemas!</h1>
-                <p>Carrera reconocida como <strong>SAP Next-Gen Hub</strong> en Latinoamérica.</p>
-                <p>Los ingenieros de Sistemas de Información de la UPC son los <strong>mejor pagados del país</strong> (Fuente: Portal Ponte en Carrera).</p>
-                <p>Podrás especializarte en <strong>Gestión de Procesos y Soluciones Empresariales</strong>, y en <strong>Seguridad y Auditoría de Sistemas y Tecnologías de Información</strong>.</p>
-            </div>
-            <div class="form-container">
-                <h2>Recibe asesoría</h2>
-                <p>Déjanos tus datos y un asesor resolverá tus dudas.</p>
-                <form>
-                    <input type="text" class="full-width" placeholder="Nombres*" required>
-                    <input type="text" class="half-width" placeholder="Apellido Paterno*" required>
-                    <input type="text" class="half-width" placeholder="Apellido Materno*" required>
-                    <input type="text" class="full-width" placeholder="DNI" required>
-                    <input type="text" class="full-width" placeholder="Celular" required>
-                    <input type="email" class="full-width" placeholder="Correo Electrónico" required>
-                    <select class="full-width" required>
-                        <option value="">Elige tu género</option>
-                        <option value="masculino">Masculino</option>
-                        <option value="femenino">Femenino</option>
-                    </select>
-                    <select class="full-width" required>
-                        <option value="">Escoge tu grado</option>
-                        <option value="3ro">3ro</option>
-                        <option value="4to">4to</option>   
-                        <option value="4to">5to</option>                                     
-                    </select>
-                    <select class="full-width" required>
-                        <option value="">Escoge tu ciudad</option>
-                        <!-- Opciones de ciudad -->
-                    </select>
-                    <button type="submit">ENVIAR</button>
-                </form>
-            </div>
+    <div class="content">
+        <div class="video-background">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/B_BNY67EaEk?si=t62PIrNeVUEIXNsy"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
-        
-        <div class="titulo">
-            <h2>Malla Curricular</h2>
-             <p>
-              Con el objetivo de un mayor entendimiento por parte de estudiantes e interesados, la UPC pone a disposición la malla curricular de la carrera de Ingeniería de Sistemas de Información, la cual otorga la libertad de elegir cómo llevar diversos cursos (presencial y/o virtual), manteniendo la alta calidad de enseñanza y exigencia de UPC. A continuación el detalle:
-             </p>
+        <div class="text">
+            <h1>Bienvenidos a la Escuela Académico Profesional de Ingeniería de Sistemas!</h1>
+            <p>Carrera reconocida como <strong>SAP Next-Gen Hub</strong> en Latinoamérica.</p>
+            <p>Los ingenieros de Sistemas de Información de la UPC son los <strong>mejor pagados del país</strong>
+                (Fuente: Portal Ponte en Carrera).</p>
+            <p>Podrás especializarte en <strong>Gestión de Procesos y Soluciones Empresariales</strong>, y en
+                <strong>Seguridad y Auditoría de Sistemas y Tecnologías de Información</strong>.</p>
         </div>
+        <div class="form-container">
+            <h2>Recibe asesoría</h2>
+            <p>Déjanos tus datos y un asesor resolverá tus dudas.</p>
+            <form>
+                <input type="text" class="full-width" placeholder="Nombres*" required>
+                <input type="text" class="half-width" placeholder="Apellido Paterno*" required>
+                <input type="text" class="half-width" placeholder="Apellido Materno*" required>
+                <input type="text" class="full-width" placeholder="DNI" required>
+                <input type="text" class="full-width" placeholder="Celular" required>
+                <input type="email" class="full-width" placeholder="Correo Electrónico" required>
+                <select class="full-width" required>
+                    <option value="">Elige tu género</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>
+                </select>
+                <select class="full-width" required>
+                    <option value="">Escoge tu grado</option>
+                    <option value="3ro">3ro</option>
+                    <option value="4to">4to</option>
+                    <option value="4to">5to</option>
+                </select>
+                <select class="full-width" required>
+                    <option value="">Escoge tu ciudad</option>
+                    <!-- Opciones de ciudad -->
+                </select>
+                <button type="submit">ENVIAR</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="titulo">
+        <h2>Malla Curricular</h2>
+        <p>
+            Con el objetivo de un mayor entendimiento por parte de estudiantes e interesados, la UPC pone a disposición
+            la malla curricular de la carrera de Ingeniería de Sistemas de Información, la cual otorga la libertad de
+            elegir cómo llevar diversos cursos (presencial y/o virtual), manteniendo la alta calidad de enseñanza y
+            exigencia de UPC. A continuación el detalle:
+        </p>
+    </div>
 
 
-        <table id="curriculum">
-            <tr>
-                <th>Ciclo I</th>
-                <th>Ciclo II</th>
-                <th>Ciclo III</th>
-                <th>Ciclo IV</th>
-                <th>Ciclo V</th>
-                <th>Ciclo VI</th>
-                <th>Ciclo VII</th>
-                <th>Ciclo VIII</th>
-                <th>Ciclo IX</th>
-                <th>Ciclo X</th>
-            </tr>
-            <tr>
-                <td class="course">Fundamentos de Programación</td>
-                <td class="course">Algoritmos y Estructuras de Datos I</td>
-                <td class="course">Algoritmos y Estructuras de Datos II</td>
-                <td class="course">Programación Avanzada</td>
-                <td class="course">Programación en Sistemas Inteligentes</td>
-                <td class="course">Especiales en Sistemas Inteligentes</td>
-                <td class="course">Inglés STEM I</td>
-                <td class="course">Inglés STEM II</td>
-                <td class="course">Sistemas Complejos</td>
-                <td class="course">Desarrollo de Habilidades Directivas</td>
-            </tr>
-            <tr>
-                <td class="course">Matemática</td>
-                <td class="course">Análisis Matemático I</td>
-                <td class="course">Análisis Matemático II</td>
-                <td class="course">Teoría de Autómatas y Lenguajes Formales</td>
-                <td class="course">Sistemas Integrados</td>
-                <td class="course">Teoría de Sistemas</td>
-                <td class="course">Dinámica de Sistemas</td>
-                <td class="course">Continuidad de Sistemas Complejos</td>
-                <td class="course">Tópicos Especiales en Redes</td>
-                <td class="course">Taller de Emprendimiento Tecnológico</td>
-            </tr>
-            <tr>
-                <td class="course">Lenguaje y Comunicación</td>
-                <td class="course">Redacción Académica</td>
-                <td class="course">Análisis Matemático III</td>
-                <td class="course">Métodos Numéricos</td>
-                <td class="course">Teoría de la Información</td>
-                <td class="course">Gestión del Talento Humano</td>
-                <td class="course">Marketing</td>
-                <td class="course">E-Business</td>
-                <td class="course">Gestión del Conocimiento</td>
-                <td class="course">Deontología de la Informática y Sistemas</td>
-            </tr>
-            <tr>
-                <td class="course">Metodología del Trabajo Universitario</td>
-                <td class="course">Filosofía y Fundamentos de la Investigación</td>
-                <td class="course">Investigación de Operaciones en Ingeniería I</td>
-                <td class="course">Investigación de Operaciones en Ingeniería II</td>
-                <td class="course">Dirección de Operaciones</td>
-                <td class="course">Gestión de Proyectos de Sistemas I</td>
-                <td class="course">Gestión de Proyectos de Sistemas II</td>
-                <td class="course">Gestión de Tecnologías de Información</td>
-                <td class="course">Seguridad de la Información y Continuidad del Negocio</td>
-                <td class="course">Tópicos Especiales en Redes</td>
-            </tr>
-            <tr>
-                <td class="course">Cultura y Realidad Nacional</td>
-                <td class="course">Ecología y Desarrollo Sostenible</td>
-                <td class="course">Organización y Administración de Empresas</td>
-                <td class="course">Contabilidad y Finanzas</td>
-                <td class="course">Gestión de Procesos de Negocio</td>
-                <td class="course">Gestión de Procesos de TI</td>
-                <td class="course">NFPA 30</td>
-                <td class="course">Marketing Digital</td>
-                <td class="course">E-Commerce</td>
-                <td class="course">Gestión del Conocimiento II</td>
-            </tr>
-            <tr>
-                <td class="course">Dibujo y Geometría Descriptiva</td>
-                <td class="course">Estadística y Probabilidades</td>
-                <td class="course">Estadística Aplicada</td>
-                <td class="course">Planeamiento de Sistemas de Información</td>
-                <td class="course">Fundamentos de Sistemas de Información</td>
-                <td class="course">Redes I</td>
-                <td class="course">Redes II</td>
-                <td class="course">Redes III</td>
-                <td class="course">Tópicos Especiales en Redes</td>
-                <td class="course">Tesis I</td>
-            </tr>
-            <tr>
-                <td class="course">Física I</td>
-                <td class="course">Física Aplicada</td>
-                <td class="course">Sistemas Digitales</td>
-                <td class="course">Arquitectura del Computador</td>
-                <td class="course">Ingeniería de Software I</td>
-                <td class="course">Ingeniería de Software II</td>
-                <td class="course">Ingeniería de Software III</td>
-                <td class="course">Arquitectura Empresarial</td>
-                <td class="course">Sistemas Empresariales</td>
-                <td class="course">Tesis II</td>
-            </tr>
-            <tr>
-                <td class="course">Construcción, Ciudadanía y Democracia</td>
-                <td class="course">Base de Datos I</td>
-                <td class="course">Base de Datos II</td>
-                <td class="course">Inteligencia de Negocios</td>
-                <td class="course">Ingeniería de Software II</td>
-                <td class="course">Ingeniería de Software III</td>
-                <td class="course">Gestión de Datos</td>
-                <td class="course">Big Data</td>
-                <td class="course">Data Science</td>
-                <td class="course">Tesis III</td>
-            </tr>
-        </table>
-        <div class="container">
-            <div class="eje color1">Aspectos Básicos</div>
-            <div class="eje color2">Modelos y Unidades Claves de la Organización</div>
-            <div class="eje color3">Algoritmos y Programación</div>
-            <div class="eje color4">Desarrollo e Implementación de Sistemas</div>
-            <div class="eje color5">Gestión de Sistemas de Información</div>
-            <div class="eje color6">Infraestructura de Tecnología de la Información</div>
-            <div class="eje color7">Enfoque Sistémico</div>
-            <div class="eje color8">Aspectos Fundamentales del Desempeño Profesional</div>
-            <div class="eje especial color9">Electivos</div>
-        </div>
-        <script src="js/index2.js"></script>
+    <table id="curriculum">
+        <tr>
+            <th>Ciclo I</th>
+            <th>Ciclo II</th>
+            <th>Ciclo III</th>
+            <th>Ciclo IV</th>
+            <th>Ciclo V</th>
+            <th>Ciclo VI</th>
+            <th>Ciclo VII</th>
+            <th>Ciclo VIII</th>
+            <th>Ciclo IX</th>
+            <th>Ciclo X</th>
+        </tr>
+        <tr>
+            <td class="course">Fundamentos de Programación</td>
+            <td class="course">Algoritmos y Estructuras de Datos I</td>
+            <td class="course">Algoritmos y Estructuras de Datos II</td>
+            <td class="course">Programación Avanzada</td>
+            <td class="course">Programación en Sistemas Inteligentes</td>
+            <td class="course">Especiales en Sistemas Inteligentes</td>
+            <td class="course">Inglés STEM I</td>
+            <td class="course">Inglés STEM II</td>
+            <td class="course">Sistemas Complejos</td>
+            <td class="course">Desarrollo de Habilidades Directivas</td>
+        </tr>
+        <tr>
+            <td class="course">Matemática</td>
+            <td class="course">Análisis Matemático I</td>
+            <td class="course">Análisis Matemático II</td>
+            <td class="course">Teoría de Autómatas y Lenguajes Formales</td>
+            <td class="course">Sistemas Integrados</td>
+            <td class="course">Teoría de Sistemas</td>
+            <td class="course">Dinámica de Sistemas</td>
+            <td class="course">Continuidad de Sistemas Complejos</td>
+            <td class="course">Tópicos Especiales en Redes</td>
+            <td class="course">Taller de Emprendimiento Tecnológico</td>
+        </tr>
+        <tr>
+            <td class="course">Lenguaje y Comunicación</td>
+            <td class="course">Redacción Académica</td>
+            <td class="course">Análisis Matemático III</td>
+            <td class="course">Métodos Numéricos</td>
+            <td class="course">Teoría de la Información</td>
+            <td class="course">Gestión del Talento Humano</td>
+            <td class="course">Marketing</td>
+            <td class="course">E-Business</td>
+            <td class="course">Gestión del Conocimiento</td>
+            <td class="course">Deontología de la Informática y Sistemas</td>
+        </tr>
+        <tr>
+            <td class="course">Metodología del Trabajo Universitario</td>
+            <td class="course">Filosofía y Fundamentos de la Investigación</td>
+            <td class="course">Investigación de Operaciones en Ingeniería I</td>
+            <td class="course">Investigación de Operaciones en Ingeniería II</td>
+            <td class="course">Dirección de Operaciones</td>
+            <td class="course">Gestión de Proyectos de Sistemas I</td>
+            <td class="course">Gestión de Proyectos de Sistemas II</td>
+            <td class="course">Gestión de Tecnologías de Información</td>
+            <td class="course">Seguridad de la Información y Continuidad del Negocio</td>
+            <td class="course">Tópicos Especiales en Redes</td>
+        </tr>
+        <tr>
+            <td class="course">Cultura y Realidad Nacional</td>
+            <td class="course">Ecología y Desarrollo Sostenible</td>
+            <td class="course">Organización y Administración de Empresas</td>
+            <td class="course">Contabilidad y Finanzas</td>
+            <td class="course">Gestión de Procesos de Negocio</td>
+            <td class="course">Gestión de Procesos de TI</td>
+            <td class="course">NFPA 30</td>
+            <td class="course">Marketing Digital</td>
+            <td class="course">E-Commerce</td>
+            <td class="course">Gestión del Conocimiento II</td>
+        </tr>
+        <tr>
+            <td class="course">Dibujo y Geometría Descriptiva</td>
+            <td class="course">Estadística y Probabilidades</td>
+            <td class="course">Estadística Aplicada</td>
+            <td class="course">Planeamiento de Sistemas de Información</td>
+            <td class="course">Fundamentos de Sistemas de Información</td>
+            <td class="course">Redes I</td>
+            <td class="course">Redes II</td>
+            <td class="course">Redes III</td>
+            <td class="course">Tópicos Especiales en Redes</td>
+            <td class="course">Tesis I</td>
+        </tr>
+        <tr>
+            <td class="course">Física I</td>
+            <td class="course">Física Aplicada</td>
+            <td class="course">Sistemas Digitales</td>
+            <td class="course">Arquitectura del Computador</td>
+            <td class="course">Ingeniería de Software I</td>
+            <td class="course">Ingeniería de Software II</td>
+            <td class="course">Ingeniería de Software III</td>
+            <td class="course">Arquitectura Empresarial</td>
+            <td class="course">Sistemas Empresariales</td>
+            <td class="course">Tesis II</td>
+        </tr>
+        <tr>
+            <td class="course">Construcción, Ciudadanía y Democracia</td>
+            <td class="course">Base de Datos I</td>
+            <td class="course">Base de Datos II</td>
+            <td class="course">Inteligencia de Negocios</td>
+            <td class="course">Ingeniería de Software II</td>
+            <td class="course">Ingeniería de Software III</td>
+            <td class="course">Gestión de Datos</td>
+            <td class="course">Big Data</td>
+            <td class="course">Data Science</td>
+            <td class="course">Tesis III</td>
+        </tr>
+    </table>
+    <div class="container">
+        <div class="eje color1">Aspectos Básicos</div>
+        <div class="eje color2">Modelos y Unidades Claves de la Organización</div>
+        <div class="eje color3">Algoritmos y Programación</div>
+        <div class="eje color4">Desarrollo e Implementación de Sistemas</div>
+        <div class="eje color5">Gestión de Sistemas de Información</div>
+        <div class="eje color6">Infraestructura de Tecnología de la Información</div>
+        <div class="eje color7">Enfoque Sistémico</div>
+        <div class="eje color8">Aspectos Fundamentales del Desempeño Profesional</div>
+        <div class="eje especial color9">Electivos</div>
+    </div>
+    <h3 style="text-align: center;">Ubícanos</h3>
+    <div class="container">
         
-        <footer class="footer">
-            <div class="footer-container">
-                <div class="footer-section logo-section">
-                    <img src="path/to/logo.png" alt="Universidad Nacional de Cajamarca Logo">
-                    <p>
-                        Somos una Universidad comprometida en la formación académica profesional de calidad, contribuyendo al desarrollo sustentable regional y nacional, con un elevado nivel humanístico, científico, tecnológico, con principios morales, valores éticos, liderazgo, y con un alto compromiso con el ambiente.
-                    </p>
-                </div>
-                <div class="footer-section">
-                    <h3>Dirección:</h3>
-                    <p>
-                        <i class="fa fa-map-marker"></i> Av. Atahualpa 1050, Cajamarca - Perú<br>
-                        <i class="fa fa-phone"></i> (+51) 076 610000<br>
-                        <i class="fa fa-envelope"></i> mesadepartes@unc.edu.pe
-                    </p>
-                </div>
-                <div class="footer-section">
-                    <h3>Enlaces</h3>
-                    <ul>
-                        <li><a href="#">Directorio UNC</a></li>
-                        <li><a href="#">Correo UNC</a></li>
-                        <li><a href="#">FEDU Investigación</a></li>
-                        <li><a href="#">Libro de Reclamaciones</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h3>Redes Sociales</h3>
-                    <ul class="social-media">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    </ul>
-                </div>
+        <div id="mapa" >
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section logo-section">
+                <img src="path/to/logo.png" alt="Universidad Nacional de Cajamarca Logo">
+                <p>
+                    Somos una Universidad comprometida en la formación académica profesional de calidad, contribuyendo
+                    al desarrollo sustentable regional y nacional, con un elevado nivel humanístico, científico,
+                    tecnológico, con principios morales, valores éticos, liderazgo, y con un alto compromiso con el
+                    ambiente.
+                </p>
             </div>
-            <div class="footer-bottom">
-                <p>Copyright 2022 - Oficina de Tecnologías de la Información. Todos los derechos reservados.</p>
-                <ul class="footer-links">
-                    <li><a href="#">SIA Pregrado</a></li>
-                    <li><a href="#">SIA Posgrado</a></li>
+            <div class="footer-section">
+                <h3>Dirección:</h3>
+                <p>
+                    <i class="fa fa-map-marker"></i> Av. Atahualpa 1050, Cajamarca - Perú<br>
+                    <i class="fa fa-phone"></i> (+51) 076 610000<br>
+                    <i class="fa fa-envelope"></i> mesadepartes@unc.edu.pe
+                </p>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces</h3>
+                <ul>
+                    <li><a href="#">Directorio UNC</a></li>
+                    <li><a href="#">Correo UNC</a></li>
+                    <li><a href="#">FEDU Investigación</a></li>
+                    <li><a href="#">Libro de Reclamaciones</a></li>
                 </ul>
             </div>
-            
-        </footer>
-        
+            <div class="footer-section">
+                <h3>Redes Sociales</h3>
+                <ul class="social-media">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright 2022 - Oficina de Tecnologías de la Información. Todos los derechos reservados.</p>
+            <ul class="footer-links">
+                <li><a href="#">SIA Pregrado</a></li>
+                <li><a href="#">SIA Posgrado</a></li>
+            </ul>
+        </div>
 
+    </footer>
 
-        
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+    <script src="js/index2.js"></script>
+    
+
 </body>
+
 </html>
