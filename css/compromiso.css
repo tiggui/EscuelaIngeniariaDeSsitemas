@@ -123,14 +123,14 @@ body {
 .compromiso-container {
     width: 94%;
     text-align: center;
-    background-color: #000; /* Fondo negro */
-    color: #fff; /* Texto blanco */
+    background-color: #000; 
+    color: #fff;
     padding: 20px 40px;
 }
 
 .compromiso-container h2 {
     font-size: 24px;
-    color: rgba(255, 0, 0, 0.8); /* O el color que desees para el título */
+    color: rgba(255, 0, 0, 0.8); 
     margin-bottom: 10px;
 }
 
@@ -149,10 +149,10 @@ body {
 
 .alumno {
     width: 30%;
-    background-color: #222; /* Fondo oscuro para cada alumno */
+    background-color: #222; 
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para resaltar cada tarjeta */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .alumno img {

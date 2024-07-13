@@ -89,14 +89,14 @@ h1 {
 }
 
 .autoridad {
-    max-width: 600px; /* Ajusta según tus necesidades */
+    max-width: 600px; 
     text-align: center;
     padding: 20px;
     margin-bottom: 20px;
 }
 
 .autoridad img {
-    width: 150px; /* Ajusta el tamaño según tus necesidades */
+    width: 150px; 
     height: 150px;
     border-radius: 50%;
     margin-bottom: 10px;

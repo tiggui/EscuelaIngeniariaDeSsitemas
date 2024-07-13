@@ -128,7 +128,6 @@ main {
 
 }
 
-/* Responsive Styles */
 @media (max-width: 768px) {
     .welcome-section, .new-portal-section {
         flex-direction: column;
@@ -145,7 +144,6 @@ main {
     }
 }
 
-/* Section MI UPC PADRES */
 .padres-section {
     display: flex;
     justify-content: space-between;
@@ -198,7 +196,6 @@ main {
     color: #ff0000;
 }
 
-/* Responsive Styles */
 @media (max-width: 768px) {
     .padres-section {
         flex-direction: column;
@@ -218,7 +215,6 @@ main {
 
 /*----------------------------------------------*/
 
-/* Footer Styles */
 .footer {
     background-color: #b5dde7;
     padding: 20px 0;
@@ -283,16 +279,13 @@ main {
     color: #fff;
 }
 
-/* Icon Styles (using FontAwesome) */
 .fas.fa-book:before {
-    content: "\f02d"; /* FontAwesome book icon */
+    content: "\f02d"; 
 }
 
 .fab.fa-whatsapp:before {
-    content: "\f232"; /* FontAwesome WhatsApp icon */
-}
+    content: "\f232"; 
 
-/* Responsive Styles */
 @media (max-width: 768px) {
     .footer-container {
         flex-direction: column;
