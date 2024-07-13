@@ -118,3 +118,85 @@ body {
     font-weight: bold;
     text-transform: uppercase;
 }
+
+/*------------------------------------------------------*/
+
+.compromiso-container {
+    width: 100%;
+    text-align: center;
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    padding: 20px 40px;
+}
+
+.compromiso-container h2 {
+    font-size: 24px;
+    color: rgba(255, 0, 0, 0.8); /* O el color que desees para el título */
+    margin-bottom: 10px;
+}
+
+.compromiso-container p {
+    margin: 20px 0;
+    font-size: 16px;
+    max-width: 80%;
+    line-height: 1.5;
+}
+
+.alumnos {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.alumno {
+    width: 30%;
+    background-color: #222; /* Fondo oscuro para cada alumno */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para resaltar cada tarjeta */
+}
+
+.alumno img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.alumno h3 {
+    color: #fff;
+}
+
+.alumno p {
+    font-size: 14px;
+    color: #ccc; 
+}
+.titulo-seccion {
+    background-color: #000; 
+    color: #fff; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.titulo-seccion h2 {
+    font-size: 24px; 
+    color: red; 
+    padding-left: 20px; 
+    position: relative;
+    margin: 0;
+}
+
+.titulo-seccion h2:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 5px; 
+    background-color: red; 
+}
+
+
+/*_____________________________________________________*/
+
+
