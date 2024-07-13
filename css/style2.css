@@ -16,7 +16,7 @@ body {
     display: flex;
     flex: 1;
     justify-content: space-between;
-    margin-left: 350px;
+    margin-left: 550px;
 }
 .nav a {
     color: black;
@@ -200,6 +200,28 @@ body, html {
     text-decoration: underline;
 }
 
+.social-media a {
+    display: flex;
+    align-items: center;
+    color: #ffc107;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  
+  .social-media i {
+    margin-right: 8px;
+    font-size: 20px;
+  }
+  
+  .social-media a:hover {
+    text-decoration: underline;
+  }
+  .logo-sectiom img {
+    max-width: 500px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
 
 /*------------------------*/
 .titulo {
@@ -396,4 +418,5 @@ tr:nth-child(10) td:nth-child(10) { background-color: #ffa07a; }
 .color6 { background-color: #add8e6; }
 .color7 { background-color: #f08080; }
 .color8 { background-color: #ffa07a; }
-.color9 { background-color: #CCCCCC; } /* Gris claro para 'Electivos' */
+.color9 { background-color: #CCCCCC; } 
+

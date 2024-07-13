@@ -16,7 +16,7 @@ body {
     display: flex;
     flex: 1;
     justify-content: space-between;
-    margin-left: 350px;
+    margin-left: 550px;
 }
 .nav a {
     color: black;
@@ -24,8 +24,7 @@ body {
     margin: 0 10px;
     position: relative;
 }
-.nav a:hover,
-.nav a.active {
+.nav a:hover {
     color: #00aae4;
 }
 
@@ -36,7 +35,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-} 
+}
 
 /*______________________________________________________*/
 

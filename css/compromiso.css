@@ -16,7 +16,7 @@ body {
     display: flex;
     flex: 1;
     justify-content: space-between;
-    margin-left: 350px;
+    margin-left: 550px;
 }
 .nav a {
     color: black;
@@ -24,8 +24,7 @@ body {
     margin: 0 10px;
     position: relative;
 }
-.nav a:hover,
-.nav a.active {
+.nav a:hover {
     color: #00aae4;
 }
 
@@ -36,7 +35,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-} 
+}
 
 /*______________________________________________________*/
 
@@ -200,3 +199,92 @@ body {
 /*_____________________________________________________*/
 
 
+.footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.footer-section {
+    flex: 1;
+    margin: 0 20px;
+}
+.footer-section h3 {
+    border-bottom: 2px solid #ffc107;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.footer-section p, .footer-section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer-section a {
+    color: #ffc107;
+    text-decoration: none;
+}
+.footer-section a:hover {
+    text-decoration: underline;
+}
+.social-media {
+    display: flex;
+    gap: 10px;
+}
+.social-media a {
+    color: #ffc107;
+    font-size: 20px;
+}
+.footer-bottom {
+    background-color: #111;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #444;
+}
+.footer-bottom p {
+    margin: 0;
+}
+.footer-links {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+.footer-links a {
+    color: #ffc107;
+    text-decoration: none;
+}
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.social-media a {
+    display: flex;
+    align-items: center;
+    color: #ffc107;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  
+  .social-media i {
+    margin-right: 8px;
+    font-size: 20px;
+  }
+  
+  .social-media a:hover {
+    text-decoration: underline;
+  }
+  .logo-sectiom img {
+    max-width: 500px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
