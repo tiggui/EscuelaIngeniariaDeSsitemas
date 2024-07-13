@@ -418,5 +418,22 @@ tr:nth-child(10) td:nth-child(10) { background-color: #ffa07a; }
 .color6 { background-color: #add8e6; }
 .color7 { background-color: #f08080; }
 .color8 { background-color: #ffa07a; }
+<<<<<<< HEAD
 .color9 { background-color: #CCCCCC; } 
 
+=======
+.color9 { background-color: #CCCCCC; } /* Gris claro para 'Electivos' */
+
+
+#mapa {
+    height: 500px;
+    width: 100%;
+    padding: 20px;
+   
+   
+}
+
+.footerp{
+    text-align: center;
+}
+>>>>>>> 29c85795876605eba8987313d83942b8de74b546
