@@ -17,12 +17,12 @@
         </div>
         <div class="login-section">
             <h2 class="institutional-login">ACCEDE USANDO TU CORREO INSTITUCIONAL</h2>
-            <form>
+            <form id="loginForm">
                 <div class="form-group">
-                    <input type="text" placeholder="Usuario UPC">
+                    <input type="text" id="email" placeholder="Usuario UPC" required>
                 </div>
                 <div class="form-group">
-                    <input type="password" placeholder="Contraseña">
+                    <input type="password" id="password" placeholder="Contraseña" required>
                 </div>
                 <button type="submit">INICIA SESIÓN</button>
             </form>
@@ -30,5 +30,7 @@
             <p class="reminder">Si te encuentras en un dispositivo que no es tuyo o es de uso público, recuerda cerrar tu sesión al salir.</p>
         </div>
     </div>
+    <script src="js/login-script.js"></script>
+
 </body>
 </html>

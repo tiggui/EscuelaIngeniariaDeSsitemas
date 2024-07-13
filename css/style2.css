@@ -356,12 +356,7 @@ tr:nth-child(10) td:nth-child(9) { background-color: #ffa07a; }
 tr:nth-child(10) td:nth-child(10) { background-color: #ffa07a; }
 
 /* styles.css */
-body {
-    justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 20px; /* Agrega margen en la parte inferior del cuerpo */
-    
-}
+
 
 .container {
     display: flex;
